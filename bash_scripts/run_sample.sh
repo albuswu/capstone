@@ -13,7 +13,8 @@ curl -X POST "https://api.clarifai.com/v1/token/" \
 
 curl "https://api.clarifai.com/v1/tag/" \
     -F "encoded_data=@$1" \
-    -H "Authorization: Bearer 6tcp8Ej2yotdDfYdXwfOYDX207xFwx" > json_files/foo.json
+    -H "Authorization: Bearer kCin7h1ljGOaoOrlYBs4MN4qqLloJ4" > json_files/foo.json
 
 $PYTHON $SCRIPT_PATH
 exit 0
+
