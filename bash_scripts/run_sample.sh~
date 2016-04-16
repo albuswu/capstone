@@ -2,7 +2,7 @@
 
 CLARIFAI_APP_ID=ZlPXlWOOYAC68cPqR58knrfLnJHYNGw3ej5A7u1N
 CLARIFAI_APP_SECRET=RNnRgitRS4PaNkomMFjzX7QhU8OM1n_6rkYSdmV0
-SCRIPT_PATH="python_scripts/parse.py" 
+SCRIPT_PATH="parse.py" 
 PYTHON="/usr/bin/python"
 
 curl -X POST "https://api.clarifai.com/v1/token/" \
